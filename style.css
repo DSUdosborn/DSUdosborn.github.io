@@ -8,6 +8,7 @@ main {
 	margin: 80px 0;
 	display: flex;
 }
+
 .reverse {
 	flex-direction: row-reverse;
 }
@@ -36,11 +37,6 @@ main {
   background-color: black;
 }
 
-.applyBTN a:visited {
-  background-color: #ccc;
-}
-
-
 .aboutBTN a{
   background-color: blue;
   color: white;
@@ -58,20 +54,19 @@ main {
   background-color: black;
 }
 
-.aboutBTN a:visited {
-  background-color: #ccc;
-}
-
 .textBox-details {
 	max-width: 500px;
 }
+
 .textBox-details h2 {
   font-family: Roboto, sans-serif;
 	font-weight: 700;
 }
+
 .textBox-details p {
   font-family: Lora, serif;
 }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -119,7 +114,7 @@ button:hover {
 header{
   max-width: 1200;
   margin: 0 auto;
-  height: 80px;
+  height: 180px;
   color: #4a4a4a;
   display: flex;
   justify-content: space-between;
@@ -188,7 +183,7 @@ header .actions {
 
 @media screen and (max-width: 900px) {
 	.wide-nav,
-	.download-btn,
+	.applyBTN,
 	.download-btn span {
 		display: none;
 	}
